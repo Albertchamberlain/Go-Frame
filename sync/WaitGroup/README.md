@@ -1,5 +1,5 @@
 ### WaitGroup
-
+通俗地讲：WaitGroup的用途：它能够一直等到所有的goroutine执行完成，并且阻塞主线程的执行，直到所有的goroutine执行完成。
 ![](.README_images/ee0b81fa.png)
 
 参数delta可能是负的，加到WaitGroup计数器,可能出现如下结果
