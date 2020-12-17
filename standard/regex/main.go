@@ -155,4 +155,9 @@ func main() {
 		}))
 	// Hello$1 World!
 
+	var validID = regexp.MustCompile(`^[a-z]+\[[0-9]+\]$`)
+	fmt.Println(validID.MatchString("adam[23]")) //true
+	fmt.Println(validID.MatchString("Job[48]"))  //false
+	fmt.Println(validID.MatchString("snakey"))   //false
+
 }

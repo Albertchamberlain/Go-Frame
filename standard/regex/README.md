@@ -1,5 +1,34 @@
 ### Regex 正则表达式支持
 
+
+- func Match
+`func Match(pattern string, b []byte) (matched bool, err error)`
+Match检查b中是否存在匹配pattern的子序列。更复杂的用法请使用Compile函数和Regexp对象。
+
+- func MatchString
+`func MatchString(pattern string, s string) (matched bool, err error)`
+MatchString类似Match，但匹配对象是字符串。
+
+- func MatchReader
+`func MatchReader(pattern string, r io.RuneReader) (matched bool, err error)`
+MatchReader类似Match，但匹配对象是io.RuneReader。
+
+
+- type Regexp
+
+type Regexp struct {
+    // 内含隐藏或非导出字段
+}
+Regexp代表一个编译好的正则表达式。`Regexp可以被多线程安全地同时使用`。
+
+- func (*Regexp) Match
+`func (re *Regexp) Match(b []byte) bool`
+Match检查b中是否存在匹配pattern的子序列。
+
+- func (*Regexp) MatchString
+`func (re *Regexp) MatchString(s string) bool`
+MatchString类似Match，但匹配对象是`字符串`。
+
 ```go
 package main
 
