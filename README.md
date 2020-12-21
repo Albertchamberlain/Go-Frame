@@ -3,7 +3,7 @@
 
 :wave::wave::wave:
 
-[![](https://img.shields.io/badge/go-study-blue)](https://github.com/Albertchamberlain/Go-lib)
+[![](https://img.shields.io/badge/go-study-blue)](https://github.com/Albertchamberlain/Go-Frame)
 
 
 
