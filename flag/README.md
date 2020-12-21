@@ -16,6 +16,8 @@ main.exe -intflag 12 -boolflag 1 -stringflag amos
 ![](.README_images/166f88ea.png)
 
 `如果不设置某个选项，相应变量会取默认值`
+
+
 ![](.README_images/06ded915.png)
 也可以直接使用`go run`，这个命令会先编译程序生成可执行文件，然后执行该文件，将命令行中的其它选项传给这个程序
 ```shell script
