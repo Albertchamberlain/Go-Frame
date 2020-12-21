@@ -79,6 +79,3 @@ func f(i int, wg *sync.WaitGroup) {
 ```
 
 
-![](.README_images/af287d09.png)
-
-
