@@ -2,7 +2,8 @@
 
 内建的map不是线程(goroutine)安全的
 
-在并发读写过程中,下列程序中一个goroutine一直读，一个goroutine一只写同一个键值，即即使读写的键不相同，而且map也没有"扩容"等操作，代码还是会报错
+`在并发读写过程中,下列程序中一个goroutine一直读，一个goroutine一只写同一个键值，即即使读写的键不相同，而且map也没有"扩容"等操作，代码还是会报错`
+
 ![](.README_images/a5350aba.png)
 
 Java中存在的并发安全的Map--`ConcurrentHashMap`

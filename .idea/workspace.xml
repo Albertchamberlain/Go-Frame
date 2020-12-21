@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8b83e36-a4ed-40fd-a8af-81c4f14eeccb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flag/.README_images/06ded915.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flag/.README_images/166f88ea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flag/.README_images/5531e619.png" afterDir="false" />
+    <list default="true" id="a8b83e36-a4ed-40fd-a8af-81c4f14eeccb" name="Default Changelist" comment="&lt;add&gt;:&lt;gorm&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/orm/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,15 +70,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="Go-Frame" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build Go-Frame/连接数据库" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Frame" />
       <working_directory value="$PROJECT_DIR$" />
@@ -111,16 +102,6 @@
       <filePath value="$PROJECT_DIR$/flag/main.go" />
       <package value="main.go/flag" />
       <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="Go-Frame" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
