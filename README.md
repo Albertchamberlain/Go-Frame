@@ -24,5 +24,5 @@
         - [map](https://github.com/Albertchamberlain/Go-Frame/tree/main/standard/structure/map)
         - [ring](https://github.com/Albertchamberlain/Go-Frame/tree/main/standard/structure/ring)
   - [sync](https://github.com/Albertchamberlain/Go-Frame/tree/main/sync)
-    -[WaitGroup](https://github.com/Albertchamberlain/Go-Frame/tree/main/sync/WaitGroup)
-    - [syncmap&concurrentMap](https://github.com/Albertchamberlain/Go-Frame/tree/main/sync/map)
+  -[WaitGroup](https://github.com/Albertchamberlain/Go-Frame/tree/main/sync/WaitGroup)
+  - [syncmap&concurrentMap](https://github.com/Albertchamberlain/Go-Frame/tree/main/sync/map)
